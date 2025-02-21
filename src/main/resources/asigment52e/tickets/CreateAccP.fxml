@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="369.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="asigment52e.tickets.gui.controlers.CreateAccPController">
+   <top>
+      <HBox alignment="CENTER" prefHeight="78.0" prefWidth="405.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="51.0" fitWidth="234.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@/EASYDVEST.jpg" />
+               </image></ImageView>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <VBox alignment="CENTER" prefHeight="249.0" prefWidth="345.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="38.0" prefWidth="405.0">
+               <children>
+                  <Label prefHeight="31.0" prefWidth="252.0" text="Username:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="38.0" prefWidth="405.0">
+               <children>
+                  <HBox prefHeight="38.0" prefWidth="64.0" />
+                  <TextField prefHeight="25.0" prefWidth="257.0" promptText="Admin">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <Label prefHeight="29.0" prefWidth="242.0" text="Email:">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <StackPane prefHeight="30.0" prefWidth="405.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0" StackPane.alignment="CENTER_RIGHT">
+                     <children>
+                        <HBox prefHeight="31.0" prefWidth="63.0" />
+                        <TextField prefHeight="25.0" prefWidth="257.0" promptText="Admin@gmail.com">
+                           <font>
+                              <Font size="15.0" />
+                           </font></TextField>
+                     </children>
+                  </HBox>
+               </children>
+            </StackPane>
+            <VBox alignment="CENTER" prefHeight="82.0" prefWidth="405.0">
+               <children>
+                  <Label prefHeight="29.0" prefWidth="242.0" text="Password">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <HBox prefHeight="38.0" prefWidth="405.0">
+                     <children>
+                        <HBox prefHeight="30.0" prefWidth="64.0" />
+                        <PasswordField prefHeight="31.0" prefWidth="257.0" promptText="Password123">
+                           <font>
+                              <Font size="15.0" />
+                           </font></PasswordField>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="405.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="257.0" text="Log in">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="405.0" />
+            <HBox alignment="BOTTOM_CENTER" prefHeight="27.0" prefWidth="405.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="271.0" text="Contact us for help:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="BOTTOM_CENTER" prefHeight="20.0" prefWidth="405.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="277.0" text="+45 22 22 22 22">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
